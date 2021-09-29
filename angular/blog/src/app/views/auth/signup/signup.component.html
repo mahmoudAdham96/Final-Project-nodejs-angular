@@ -1,0 +1,42 @@
+<div class="p-4">
+  <h1 class="text-center">Signup</h1>
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input
+        [(ngModel)]="name"
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Your Name"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input
+        [(ngModel)]="email"
+        type="email"
+        class="form-control"
+        id="email"
+        placeholder="name@example.com"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input
+        [(ngModel)]="password"
+        type="password"
+        class="form-control"
+        id="password"
+        placeholder="password"
+      />
+    </div>
+
+    <button 
+        class="btn btn-primary"
+        (click)="submit()"
+    >Signup</button>
+  </div>
+</div>

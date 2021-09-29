@@ -1,0 +1,23 @@
+// angular language services
+// angular snippets
+// auto close tags
+// auto import
+// auto rename tag
+// better comments
+// bracket pair colorizer
+// code spell checker
+// eslint
+// html snippets
+// intellisense for css class name in html
+// javascript es6 code snippets
+// javascript and typescript nightly
+// live server
+// material icon theme
+// npm
+// npm intellisense
+// one dark pro
+// path intellisense
+// prettier
+// tabnine autocomplete
+// TODO Highlight
+// visual studio intelliCode

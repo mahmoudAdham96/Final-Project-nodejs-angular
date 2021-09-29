@@ -1,0 +1,10 @@
+<div class="card my-3" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title"> {{todo.title}} </h5>
+      <p class="card-text">{{todo.completed}}</p>
+      <div class="d-flex justify-content-around align-items-center">
+          <button class="btn btn-success" [routerLink]="'/form/'+todo._id" >Edit</button>
+          <button class="btn text-danger" (click)="deleteTodo()">Delete</button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,20 @@
+<div class="alert alert-danger" *ngFor="let err of errors" role="alert">
+  {{err}}
+   </div>
+
+<h1>{{editMode?'update':'Create'}}  Todo</h1>
+<hr>
+<div>
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input 
+        [(ngModel)]="title"
+        type="text"
+         class="form-control"
+          id="Todo" 
+          placeholder="Todo Title">
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <button type="submit" class="btn btn-primary mb-3" (click)="submit()" >Submit</button>
+      </div>
+</div>
